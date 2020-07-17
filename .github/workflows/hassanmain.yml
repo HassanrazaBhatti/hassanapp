@@ -31,9 +31,7 @@ jobs:
       with:
     # Yarn command
        cmd: install 
-       
-    - name: action-yarn
-      uses: comchangs/action-yarn@v0.1-beta 
+        
     - name: installing surge
       run: npm install -g surge 
     - name: deploying on surge
